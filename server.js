@@ -25,8 +25,9 @@ app.configure(function () {
 
 router(app);
 
+
 server = http.createServer(app).listen(app.get('port'), function () {
-    console.log('health-demo');
+    console.log('space');
     console.log('---------------------');
     console.log('           port: %d', app.get('port'));
 });
